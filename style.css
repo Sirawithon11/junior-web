@@ -1,0 +1,189 @@
+:root{
+    --bg-bt : rgb(161, 32, 32)
+}
+body{
+    margin: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+
+nav{
+    display: flex;
+    padding: 1em  4em;
+    box-shadow: 0px 1px 14px 0px black;
+    font-size: 18px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    
+}
+
+nav .logo{
+    flex-grow: 1;
+}
+
+nav .menu a{
+    text-decoration: none;
+    padding: 0.5em;
+    color: black;
+    margin-right: 5px;
+    display: inline-block;
+    
+}
+nav .menu a:last-child{
+    background-color: var(--bg-bt);
+    color: aliceblue;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin:  auto 300px;
+    text-align: center;
+    position: relative;
+    font-size: 20px;
+}
+header .header-botton{
+    display: flex;
+    margin-top: 10px;
+    
+}
+header .header-botton a:first-child{
+    margin-right: 30px ;
+    text-decoration: none;
+    background-color: var(--bg-bt);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 2px 8px 0 black;
+}
+
+header .header-botton a:last-child{ 
+    border-radius:10px ;
+    text-decoration: none;
+    padding: 0.5em 1.2em;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 8px 0 black;
+}
+
+header .img-boy{
+    position: absolute;
+    top: 2em;
+    right: 25px;
+    transform: rotate(15deg);
+}
+
+header .img-girl{
+    position: absolute;
+    bottom: 3em;
+    left: 25px;
+    transform: rotate(-15deg);
+}
+header .img1{
+    position: absolute;
+    left: 5em;
+    top: 5em;
+    transform: rotate(15deg);
+}
+
+header .img2{
+    position: absolute;
+    right: 5em;
+    bottom: 5em;
+    transform: rotate(190deg);
+    
+}
+main{
+    background-color: antiquewhite;
+    height: 500px;        
+}
+
+main .body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2em;
+}
+
+main .content-body{
+    width: 500px;
+    margin-left: 3em;
+}
+
+main .card{
+    display: flex;
+    justify-content: center;
+    margin-top: 8em ;
+}
+main .card1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px 0px black;
+}
+
+.card .img-card {
+    width: 150px;
+}
+
+
+section{
+    height: 500px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    
+}
+section .bottom-section a{
+    margin-left: 30px ;
+    text-decoration: none;
+    background-color: var(--bg-bt);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 2px 2px 8px 0 black;
+    display: inline-block;
+}
+section .bottom-section{
+    margin-right: 30px;
+}
+
+section .body-section{
+    margin-top: 10em;
+}
+
+section .body-section .bottom1{
+    background-color: rgb(157, 155, 155);
+    border-radius: 2em ;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    color: white;
+    box-shadow: 2px 2px 8px 0 black;
+    display: inline-block;
+    position: relative;
+    right: 0.5em;
+    
+    
+}
+
+
+a:hover{
+    transform: scale(1.1);
+}
+
+
+
